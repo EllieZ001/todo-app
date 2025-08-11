@@ -1,0 +1,33 @@
+/* App.css - For To-Do App */
+
+.app-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.todo-item:hover {
+  background-color: #f0f0f0;
+}
+
+.delete-button {
+  margin-left: 1rem;
+  color: red;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  text-decoration: underline;
+}
