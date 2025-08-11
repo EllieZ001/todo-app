@@ -1,4 +1,5 @@
 1. Simple To-Do Application
+
 A basic To-Do list app built with React for the frontend and Express for the backend.
 Tasks are stored in server memory for simplicity.
 
@@ -52,12 +53,15 @@ Content-Type: application/json
   "task": "Buy groceries"
 }
 
-6. Notes
-This project uses in-memory storage. All data is lost when the server restarts.
+6. How it Works
 
-For production, replace storage with a database.
+- The frontend sends API requests to the backend
+- The backend processes the requests and returns data
+- The frontend updates the UI based on responses
 
-7. Personal Note
+7. Notes
 
 This project was mainly for practicing how frontend and backend work together.
 I kept the design simple so I could focus on understanding API requests, handling responses, and debugging. 
+
+This project uses in-memory storage. All data is lost when the server restarts.For production, replace storage with a database.
